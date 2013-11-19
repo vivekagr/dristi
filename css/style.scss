@@ -1,0 +1,212 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:200,300,400,500);
+@import url(http://fonts.googleapis.com/css?family=Snippet);
+
+body {
+  margin-top: 50px; /* 50px is the height of the navbar - change this if the navbarn height changes */
+}
+
+.site-nav {
+  float: right;
+  li {
+    font-size: 0.9em;
+    font-weight: 600;
+    text-transform: uppercase;
+    a {padding: 15px 10px;}
+  }
+}
+
+.navbar-brand {
+  font-family: 'Snippet';
+  font-size: 1.8em;
+}
+
+/* change the URL to a picture of your choice - the higher quality the better! */
+.image-carousel {
+  margin-top: 90px;
+}
+
+/* adjust the color and text shadow to optimize legibility once you have an image set - you can also change the vertical positioning if desired  */
+.tagline {
+  color: #fff;
+  text-shadow: 0 0 10px #000;
+}
+
+footer {
+	margin: 50px 0;
+}
+
+.full-width-block-container {
+  background: #eeeeee;
+  margin: 30px 0;
+  padding: 20px 0;
+}
+
+.full-width-block {
+  font-family: 'Lato';
+  font-size: 1.1em;
+  color: #424141;
+  p:nth-last-of-type(2) {
+    margin-bottom: 30px;
+  }
+}
+
+.heading-group {
+  text-align: center;
+  margin: 10px 0 25px 0;
+  .heading {
+    font-family: 'Snippet';
+    font-size: 2.2em;
+    margin: 0;
+    color: rgb(53, 53, 53);
+  }
+  .sub-heading {
+    font-size: 0.8em;
+    font-weight: 400;
+    margin: 4px 0 0 0;
+    color: rgb(111, 111, 111);
+  }
+}
+
+.feature-box {
+  text-align: center;
+  font-family: 'Lato';
+  h2 {
+    font-size: 1.18em;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0 0 10px 0;
+  }
+  p {
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 1.5em;
+  }
+}
+
+.feature-box-icon {
+  font-size: 1.6em;
+  color: #2980b9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+///// SlideJS styles
+
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+#slides {
+  display: none
+}
+
+#slides .slidesjs-navigation {
+  margin-top:3px;
+}
+
+#slides .slidesjs-previous {
+  margin-right: 5px;
+  float: left;
+}
+
+#slides .slidesjs-next {
+  margin-right: 5px;
+  float: left;
+}
+
+.slidesjs-pagination {
+  margin: 6px 0 0;
+  float: right;
+  list-style: none;
+}
+
+.slidesjs-pagination li {
+  float: left;
+  margin: 0 1px;
+}
+
+.slidesjs-pagination li a {
+  display: block;
+  width: 13px;
+  height: 0;
+  padding-top: 13px;
+  background-image: url(/img/slide-js-pagination.png);
+  background-position: 0 0;
+  float: left;
+  overflow: hidden;
+}
+
+.slidesjs-pagination li a.active,
+.slidesjs-pagination li a:hover.active {
+  background-position: 0 -13px
+}
+
+.slidesjs-pagination li a:hover {
+  background-position: 0 -26px
+}
+
+#slides a:link,
+#slides a:visited {
+  color: #333
+}
+
+#slides a:hover,
+#slides a:active {
+  color: #9e2020
+}
+
+.navbar {
+  overflow: hidden
+}
+
+
+#slides {
+  display: none
+}
+
+.container {
+  margin: 0 auto
+}
+
+/* For tablets & smart phones */
+@media (max-width: 767px) {
+  body {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .container {
+    width: auto
+  }
+}
+
+/* For smartphones */
+@media (max-width: 480px) {
+  .container {
+    width: auto
+  }
+}
+
+/* For smaller displays like laptops */
+@media (min-width: 768px) and (max-width: 979px) {
+  .container {
+    width: 724px
+  }
+}
+
+/* For larger displays */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px
+  }
+}
+
