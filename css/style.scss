@@ -5,7 +5,7 @@
 
 body {
   //background-image: url('/img/ps_neutral.png');
-  background-color: #f6f6f6;
+  background-color: #e2e2e2;
 }
 
 .navbar {
@@ -28,6 +28,7 @@ body {
 }
 
 .main-container {
+  border-top: 5px solid #3498db;
   background-color: white;
   max-width: 1178px;
   margin: 0 auto;
@@ -38,6 +39,17 @@ body {
 
 footer {
 	padding: 20px;
+  border-top: 6px solid rgba(39, 174, 96, 0.86);
+  background-color: rgba(41, 128, 185, 0.9);
+  color: white;
+  font-family: 'Lato';
+  font-size: 1.1em;
+  font-weight: 300;
+}
+
+.footer-social-icon {
+  margin: 0 5px;
+  img { width: 30px; }
 }
 
 .grey-container {
