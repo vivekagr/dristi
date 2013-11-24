@@ -10,6 +10,7 @@
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/magnific-popup.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
 </head>
 
@@ -17,7 +18,7 @@
 
 
 <div class="main-container">
-    <nav class="navbar navbar navbar-static-top" role="navigation">
+    <nav class="navbar navbar-default navbar-static-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
@@ -49,7 +50,7 @@
     </div>
 
 
-    <div class="full-width-block-container">
+    <div class="grey-container">
         <div class="row">
             <div class="col-lg-12 full-width-block">
                 <div class="heading-group">
@@ -105,6 +106,52 @@
                 </div>
             </div>
         </div>
+        <div class="grey-container in-action">
+            <h2>Dristi In Action</h2>
+            <div class="row">
+                <div class="col-md-7 frontpage-gallery">
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <a href="/img/frontpage-gallery/1.jpg" class="thumb">
+                                 <img src="/img/frontpage-gallery/thumb-1.jpg" class="img-responsive">
+                            </a>
+                        </div>
+                        <div class="col-xs-4">
+                            <a href="/img/frontpage-gallery/2.jpg" class="thumb">
+                                 <img src="/img/frontpage-gallery/thumb-2.jpg" class="img-responsive">
+                            </a>
+                        </div>
+                        <div class="col-xs-4">
+                            <a href="/img/frontpage-gallery/3.jpg" class="thumb">
+                                 <img src="/img/frontpage-gallery/thumb-3.jpg" class="img-responsive">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xs-4">
+                            <a href="/img/frontpage-gallery/4.jpg" class="thumb">
+                                 <img src="/img/frontpage-gallery/thumb-4.jpg" class="img-responsive">
+                            </a>
+                        </div>
+                        <div class="col-xs-4">
+                            <a href="/img/frontpage-gallery/5.jpg" class="thumb">
+                                 <img src="/img/frontpage-gallery/thumb-5.jpg" class="img-responsive">
+                            </a>
+                        </div>
+                        <div class="col-xs-4">
+                            <a href="/img/frontpage-gallery/6.jpg" class="thumb">
+                                 <img src="/img/frontpage-gallery/thumb-6.jpg" class="img-responsive">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5">
+                    <div class="video-container in-action-video">
+                        <iframe src="//www.youtube.com/embed/acoUHAuGj-w" frameborder="0" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-- <div class="row">
             <div class="col-sm-4 feature-box">
                 <div class="feature-box-icon"><i class="fa fa-flag"></i></div>
@@ -140,5 +187,17 @@
 <!-- Don't forget to add jQuery - download the most recent version at http://jquery.com/ -->
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.js"></script>
+<script src="js/magnific-popup.js"></script>
+<script>
+$(document).ready(function() {
+  $('.frontpage-gallery').magnificPopup({
+    delegate: 'a',
+    type:'image',
+    gallery: {
+        enabled: true
+    }
+  });
+});
+</script>
 </body>
 </html>
