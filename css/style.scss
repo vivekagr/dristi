@@ -164,8 +164,8 @@ footer {
     margin: 20px 0 10px;
   }
   p {
+    margin-top: 5px;
     font-size: 1em;
-    font-weight: 300;
     line-height: 1.5em;
   }
 }
@@ -188,12 +188,7 @@ footer {
 }
 
 .feature-box-description {
-  @media (min-width:768px) and (max-width: 992px) {
-    height: 120px;
-  }
-  @media (min-width: 992px) {
-    height: 100px;
-  }
+  margin-top: 20px;
 }
 
 

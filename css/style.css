@@ -137,8 +137,8 @@ footer {
     text-transform: uppercase;
     margin: 20px 0 10px; }
   .feature-box p {
+    margin-top: 5px;
     font-size: 1em;
-    font-weight: 300;
     line-height: 1.5em; }
 
 .feature-box-image {
@@ -163,12 +163,8 @@ footer {
     .feature-box-image {
       height: 120px; } }
 
-@media (min-width: 768px) and (max-width: 992px) {
-  .feature-box-description {
-    height: 120px; } }
-@media (min-width: 992px) {
-  .feature-box-description {
-    height: 100px; } }
+.feature-box-description {
+  margin-top: 20px; }
 
 .in-action h2 {
   color: #95a5a6;
