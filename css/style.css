@@ -13,12 +13,26 @@ body {
   .site-nav li a {
     padding: 15px 10px; }
 
+.navbar-collapse {
+  padding-top: 15px; }
+
 .navbar-brand {
   font-family: 'Snippet';
-  font-size: 1.8em; }
+  font-size: 1.8em;
+  padding: 15px 25px; }
+  @media (max-width: 768px) {
+    .navbar-brand {
+      padding: 5px 15px; } }
+
+.brand-logo {
+  height: 50px;
+  width: auto; }
+  @media (max-width: 768px) {
+    .brand-logo {
+      height: 30px; } }
 
 .main-container {
-  border-top: 5px solid #3498db;
+  border-top: 3px solid #3498db;
   background-color: white;
   max-width: 1178px;
   margin: 0 auto;
