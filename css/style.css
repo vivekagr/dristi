@@ -32,7 +32,7 @@ body {
       height: 30px; } }
 
 .main-container {
-  border-top: 3px solid #3498db;
+  border-top: 3px solid rgba(39, 174, 96, 0.86);
   background-color: white;
   max-width: 1178px;
   margin: 0 auto;
