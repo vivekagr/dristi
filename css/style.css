@@ -156,7 +156,7 @@ footer {
     line-height: 1.5em; }
 
 .feature-box-image {
-  filter: url(filters.svg#grayscale);
+  filter: url(/filters.svg#grayscale);
   /* Firefox 3.5+ */
   filter: gray;
   /* IE6-9 */
@@ -208,7 +208,7 @@ footer {
   height: 100%; }
 
 .frontpage-gallery .thumb img {
-  filter: url(filters.svg#grayscale);
+  filter: url(/filters.svg#grayscale);
   filter: gray;
   -webkit-filter: grayscale(0.9);
   -webkit-transition: all 0.4s ease;
