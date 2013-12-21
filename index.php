@@ -20,12 +20,12 @@
 <?php endblock() ?>
 
 <?php startblock('main') ?>
-    <div class="frontpage-heading">
-        <div class="frontpage-heading-overlay">
+    <div class="image-heading frontpage-heading">
+        <div class="image-heading-overlay frontpage-heading-overlay">
             <div class="frontpage-heading-text">Let's Make a Difference</div>
         </div>
     </div>
-    <div class="grey-container">
+    <div class="padded-container grey-container">
         <div class="row">
             <div class="col-lg-12 full-width-block">
                 <div class="heading-group">
@@ -65,7 +65,7 @@
             </div>
         </div>
     </div>
-    <div class="grey-container in-action">
+    <div class="padded-container grey-container in-action">
         <h2>Dristi In Action</h2>
         <div class="row">
             <div class="col-md-7 frontpage-gallery">

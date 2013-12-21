@@ -1,9 +1,6 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500|Snippet);
-
+@import url(https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500|Snippet|Open+Sans:300,400);
 @import 'bourbon/bourbon';
-
 @import 'vars';
-
 
 
 body {
@@ -68,9 +65,12 @@ footer {
   img { width: 30px; }
 }
 
+.padded-container {
+  padding: 30px;
+}
+
 .grey-container {
   background: rgba(238, 238, 238, 0.6);
-  padding: 30px;
 }
 
 .full-width-block {
@@ -82,17 +82,12 @@ footer {
   }
 }
 
-
-// Frontpage Heading (Image)
-
-.frontpage-heading {
-  background: url('/img/header.jpg') no-repeat center;
+.image-heading {
+  background: no-repeat center;
   background-size: cover;
 }
 
-.frontpage-heading-overlay {
-  // background: rgba(255, 255, 255, 0.6);
-  background: rgba(0, 0, 0, 0.6);
+.image-heading-overlay {
   @media (max-width: 768px) {
     height: 250px;
   }
@@ -105,6 +100,31 @@ footer {
   @media (min-width: 1200px) {
     height: 450px;
   }
+}
+
+.text-center {
+  text-align: center;
+}
+
+.heading-text {
+  font-size: 1.4em;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  margin-top: 5px;
+}
+
+
+
+//////// Frontpage Start
+
+
+// Additional styles to be applied upon .image-heading and .image-heading overlay
+.frontpage-heading {
+  background-image: url('/img/header.jpg');
+}
+
+.frontpage-heading-overlay {
+  background: rgba(0, 0, 0, 0.6);
   @include transition(opacity 0.6s ease);
   .frontpage-heading:hover & {
     @include transition(opacity 0.6s ease);
@@ -258,4 +278,55 @@ footer {
     border: 4px solid white;
     margin-bottom: 14px;
   }
+}
+
+////// Frontpage End
+
+//////////////////////////////////////////////////////////////////////////////////
+
+///// About Page Start
+
+
+.about-heading {
+  background-image: url('/img/group.jpg');
+}
+
+.about-container {
+  text-align: center;
+  h1 {
+    color: #2980b9;
+  }
+  p {
+    margin: 20px;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 0.95em;
+    line-height: 1.8em;
+    @media (max-width: 768px) {
+      font-size: 0.9em;
+      line-height: 1.6em;
+    }
+  }
+}
+
+.about-team-container {
+  margin-top: 50px;
+}
+
+.about-team-member {
+  text-align: center;
+  img {
+    margin: 0 auto;
+    max-height: 110px;
+  }
+  h3 {
+    margin-top: 10px;
+    font-family: 'Open Sans';
+    font-size: 1em;
+    font-weight: 300;
+    @media (max-width: 768px) {
+      font-size: 0.9em;
+    }
+  }
+  margin-bottom: 20px;
 }

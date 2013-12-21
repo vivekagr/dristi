@@ -1,4 +1,5 @@
-<?php require_once 'ti.php' ?>
+<?php require_once 'ti.php';
+      require_once 'vars.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -28,11 +29,11 @@
             </div>
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav navbar-right site-nav">
-                    <li><a href="#">About</a></li>
-                    <li><a href="#">Projects</a></li>
-                    <li><a href="#">Get Involved</a></li>
-                    <li><a href="#">Media Centre</a></li>
-                    <li><a href="#">Contact</a></li>
+                    <li><a href="<?= $links['about'] ?>">About</a></li>
+                    <li><a href="<?= $links['projects'] ?>">Projects</a></li>
+                    <li><a href="<?= $links['getInvolved'] ?>">Get Involved</a></li>
+                    <li><a href="<?= $links['mediaCentre'] ?>">Media Centre</a></li>
+                    <li><a href="<?= $links['contact'] ?>">Contact</a></li>
                 </ul>
             </div>
         </div>

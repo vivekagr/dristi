@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500|Snippet);
+@import url(https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500|Snippet|Open+Sans:300,400);
 body {
   background-color: #e2e2e2; }
 
@@ -52,9 +52,11 @@ footer {
   .footer-social-icon img {
     width: 30px; }
 
-.grey-container {
-  background: rgba(238, 238, 238, 0.6);
+.padded-container {
   padding: 30px; }
+
+.grey-container {
+  background: rgba(238, 238, 238, 0.6); }
 
 .full-width-block {
   font-family: 'Lato';
@@ -63,27 +65,40 @@ footer {
   .full-width-block p:nth-last-of-type(2) {
     margin-bottom: 30px; }
 
-.frontpage-heading {
-  background: url("/img/header.jpg") no-repeat center;
+.image-heading {
+  background: no-repeat center;
   background-size: cover; }
+
+@media (max-width: 768px) {
+  .image-heading-overlay {
+    height: 250px; } }
+@media (min-width: 768px) {
+  .image-heading-overlay {
+    height: 325px; } }
+@media (min-width: 992px) {
+  .image-heading-overlay {
+    height: 400px; } }
+@media (min-width: 1200px) {
+  .image-heading-overlay {
+    height: 450px; } }
+
+.text-center {
+  text-align: center; }
+
+.heading-text {
+  font-size: 1.4em;
+  font-family: 'Open Sans';
+  font-weight: 400;
+  margin-top: 5px; }
+
+.frontpage-heading {
+  background-image: url("/img/header.jpg"); }
 
 .frontpage-heading-overlay {
   background: rgba(0, 0, 0, 0.6);
   -webkit-transition: opacity 0.6s ease;
   -moz-transition: opacity 0.6s ease;
   transition: opacity 0.6s ease; }
-  @media (max-width: 768px) {
-    .frontpage-heading-overlay {
-      height: 250px; } }
-  @media (min-width: 768px) {
-    .frontpage-heading-overlay {
-      height: 325px; } }
-  @media (min-width: 992px) {
-    .frontpage-heading-overlay {
-      height: 400px; } }
-  @media (min-width: 1200px) {
-    .frontpage-heading-overlay {
-      height: 450px; } }
   .frontpage-heading:hover .frontpage-heading-overlay {
     -webkit-transition: opacity 0.6s ease;
     -moz-transition: opacity 0.6s ease;
@@ -223,3 +238,39 @@ footer {
     -webkit-transition: all 0.4s ease;
     -moz-transition: all 0.4s ease;
     transition: all 0.4s ease; }
+
+.about-heading {
+  background-image: url("/img/group.jpg"); }
+
+.about-container {
+  text-align: center; }
+  .about-container h1 {
+    color: #2980b9; }
+  .about-container p {
+    margin: 20px;
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 0.95em;
+    line-height: 1.8em; }
+    @media (max-width: 768px) {
+      .about-container p {
+        font-size: 0.9em;
+        line-height: 1.6em; } }
+
+.about-team-container {
+  margin-top: 50px; }
+
+.about-team-member {
+  text-align: center;
+  margin-bottom: 20px; }
+  .about-team-member img {
+    margin: 0 auto;
+    max-height: 110px; }
+  .about-team-member h3 {
+    margin-top: 10px;
+    font-family: 'Open Sans';
+    font-size: 1em;
+    font-weight: 300; }
+    @media (max-width: 768px) {
+      .about-team-member h3 {
+        font-size: 0.9em; } }
