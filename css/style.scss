@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500|Snippet|Open+Sans:300,400);
+@import url(https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500|Snippet|Open+Sans:200,300,400);
 @import 'bourbon/bourbon';
 @import 'vars';
 
@@ -77,9 +77,6 @@ footer {
   font-family: 'Lato';
   font-size: 1.1em;
   color: #424141;
-  p:nth-last-of-type(2) {
-    margin-bottom: 30px;
-  }
 }
 
 .image-heading {
@@ -111,6 +108,20 @@ footer {
   font-family: 'Open Sans';
   font-weight: 400;
   margin-top: 5px;
+}
+
+.hero-container {
+  text-align: center;
+  p {
+    font-family: 'Open Sans';
+    font-weight: 300;
+    font-size: 0.95em;
+    line-height: 1.8em;
+    @media (max-width: 768px) {
+      font-size: 0.9em;
+      line-height: 1.6em;
+    }
+  }
 }
 
 
@@ -284,7 +295,7 @@ footer {
 
 //////////////////////////////////////////////////////////////////////////////////
 
-///// About Page Start
+///// About Page
 
 
 .about-heading {
@@ -292,20 +303,11 @@ footer {
 }
 
 .about-container {
-  text-align: center;
   h1 {
     color: #2980b9;
   }
   p {
-    margin: 20px;
-    font-family: 'Open Sans';
-    font-weight: 300;
-    font-size: 0.95em;
-    line-height: 1.8em;
-    @media (max-width: 768px) {
-      font-size: 0.9em;
-      line-height: 1.6em;
-    }
+    margin: 20px 0;
   }
 }
 
@@ -329,4 +331,29 @@ footer {
     }
   }
   margin-bottom: 20px;
+}
+
+
+
+////// Objectives Page
+
+.objective-container {
+  padding: 40px 50px;
+  h1 {
+    margin-bottom: 30px;
+  }
+  p {
+    text-align: left;
+  }
+  h2 {
+    color: #3498db;
+    margin-top: 40px;
+    font-size: 1.1em;
+    font-weight: 200;
+    text-transform: uppercase;
+  }
+  ul {
+    text-align: left;
+    font-weight: 300;
+  }
 }

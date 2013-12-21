@@ -7,7 +7,7 @@
         <div class="image-heading-overlay">
         </div>
     </div>
-    <div class="padded-container about-container">
+    <div class="padded-container hero-container about-container">
         <div class="row">
             <div class="col-lg-12 full-width-block">
                 <h1 class="heading-text">About Us</h1>
