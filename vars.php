@@ -24,5 +24,3 @@ $teamMembers = [
     ['name' => 'Rohit Dubey', 'img' => 'rohit.jpg'],
     ['name' => 'Robin Kumar', 'img' => 'robin.jpg'],
 ];
-
-?>
