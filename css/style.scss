@@ -104,15 +104,35 @@ footer {
 }
 
 .heading-text {
-  font-size: 1.4em;
   font-family: 'Open Sans';
   font-weight: 400;
   margin-top: 5px;
 }
 
+h1.heading-text {
+  font-size: 1.3em;
+}
+
+h2.heading-text {
+  font-size: 1.1em;
+}
+
 .heading-text-green {
   color: #16a085;
   font-weight: 600;
+}
+
+.heading-text-blue {
+  color: #3498db;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+.heading-block {
+  display: inline-block;
+  color: white;
+  background: #16a085;
+  padding: 9px 15px;
 }
 
 .hero-container {
@@ -349,15 +369,11 @@ footer {
   h1 {
     margin-bottom: 30px;
   }
+  h2 {
+    margin-top: 40px;
+  }
   p {
     text-align: left;
-  }
-  h2 {
-    color: #3498db;
-    margin-top: 40px;
-    font-size: 1.1em;
-    font-weight: 200;
-    text-transform: uppercase;
   }
   ul {
     text-align: left;
@@ -367,6 +383,13 @@ footer {
 
 
 ///// Projects
+
+.project-container {
+  @extend .objective-container;
+  h2 {
+    margin-bottom: 20px;
+  }
+}
 
 .project-item {
   img {

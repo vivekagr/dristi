@@ -84,14 +84,30 @@ footer {
   text-align: center; }
 
 .heading-text {
-  font-size: 1.4em;
   font-family: 'Open Sans';
   font-weight: 400;
   margin-top: 5px; }
 
+h1.heading-text {
+  font-size: 1.3em; }
+
+h2.heading-text {
+  font-size: 1.1em; }
+
 .heading-text-green {
   color: #16a085;
   font-weight: 600; }
+
+.heading-text-blue {
+  color: #3498db;
+  font-weight: 200;
+  text-transform: uppercase; }
+
+.heading-block {
+  display: inline-block;
+  color: white;
+  background: #16a085;
+  padding: 9px 15px; }
 
 .hero-container {
   text-align: center; }
@@ -280,21 +296,20 @@ footer {
       .about-team-member h3 {
         font-size: 0.9em; } }
 
-.objective-container {
+.objective-container, .project-container {
   padding: 40px 50px; }
-  .objective-container h1 {
+  .objective-container h1, .project-container h1 {
     margin-bottom: 30px; }
-  .objective-container p {
+  .objective-container h2, .project-container h2 {
+    margin-top: 40px; }
+  .objective-container p, .project-container p {
     text-align: left; }
-  .objective-container h2 {
-    color: #3498db;
-    margin-top: 40px;
-    font-size: 1.1em;
-    font-weight: 200;
-    text-transform: uppercase; }
-  .objective-container ul {
+  .objective-container ul, .project-container ul {
     text-align: left;
     font-weight: 300; }
+
+.project-container h2 {
+  margin-bottom: 20px; }
 
 @media (max-width: 992px) {
   .project-item img {

@@ -41,7 +41,18 @@
                             <li><a href="<?= $links['challenges'] ?>">Challenges</a></li>
                         </ul>
                     </li>
-                    <li><a href="<?= $links['projects'] ?>">Projects</a></li>
+                    <li class="dropdown">
+                        <a id="siteNavProjects" role="button" data-toggle="dropdown" data-target="#" href="<?= $links['projects'] ?>">
+                            Projects <span class="caret"></span>
+                        </a>
+                        <ul class="dropdown-menu" role="menu" aria-labelledby="siteNavProjects">
+                            <li><a href="<?= $links['projects'] ?>">Our Projects</a></li>
+                            <li class="divider"></li>
+                            <li><a href="<?= $links['activities'] ?>">Activities</a></li>
+                            <li><a href="<?= $links['events'] ?>">Events</a></li>
+                            <li><a href="<?= $links['experiences'] ?>">Experiences</a></li>
+                        </ul>
+                    </li>
                     <li><a href="<?= $links['getInvolved'] ?>">Get Involved</a></li>
                     <li><a href="<?= $links['mediaCentre'] ?>">Media Centre</a></li>
                     <li><a href="<?= $links['contact'] ?>">Contact</a></li>
