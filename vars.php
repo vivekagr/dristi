@@ -5,6 +5,7 @@ $links = [
     'about'         => '/about.php',
     'projects'      => '/project.php',
     'objective'     => '/objective.php',
+    'origin'        => '/origin.php',
     'getInvolved'   => '#',
     'mediaCentre'   => '#',
     'contact'       => '#',

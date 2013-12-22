@@ -256,6 +256,8 @@ footer {
   color: #2980b9; }
 .about-container p {
   margin: 20px 0; }
+.about-container .btn {
+  margin-right: 10px; }
 
 .about-team-container {
   margin-top: 50px; }
