@@ -7,14 +7,13 @@ body {
   padding: 5px 0; }
 
 .site-nav li {
-  font-size: 0.9em;
-  font-weight: 500;
-  text-transform: uppercase; }
+  font-family: 'Open Sans';
+  font-size: 0.9em; }
   .site-nav li a {
-    padding: 15px 10px; }
+    padding: 8px 17px; }
 
 .navbar-collapse {
-  padding-top: 15px; }
+  padding-top: 25px; }
 
 .navbar-brand {
   font-family: 'Snippet';
@@ -22,7 +21,7 @@ body {
   padding: 15px 25px; }
   @media (max-width: 768px) {
     .navbar-brand {
-      padding: 5px 15px; } }
+      padding: 5px 17px; } }
 
 .brand-logo {
   height: 50px;
