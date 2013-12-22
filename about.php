@@ -13,7 +13,8 @@
                 <h1 class="heading-text">About Us</h1>
                 <p>BIT Mesra, since its foundation in 1955, is renowned for enriching and nurturing young minds in technical education but very less could be done for the villages encircling the campus. Though a number of individuals from the nearby villages have been employed here, the room for improvement always remains.And, this is how DRISTI began. The basic idea was to extend their parameters in terms of information, skills, education and recreation to guide them on the path of self sufficiency and success in future. The feasible targets were two villages-Masu and Panchauli which were in close vicinity of our college.</p>
                 <a class="btn btn-primary" href="<?= $links['objective']; ?>">Our Aims & Objectives</a>
-                <a class="btn btn-primary" href="<?= $links['origin']; ?>">Origin</a>
+                <a class="btn btn-primary" href="<?= $links['origin']; ?>">Our Origin</a>
+                <a class="btn btn-primary" href="<?= $links['challenges']; ?>">Challenges We Face</a>
             </div>
         </div>
     </div>
