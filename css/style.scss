@@ -1,10 +1,11 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500|Snippet|Open+Sans:200,300,400);
+@import url(https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500|Snippet|Open+Sans:200,300,400,600);
 @import 'bourbon/bourbon';
 @import 'vars';
 
 
 body {
   background-color: $background-color;
+  font-family: 'Open Sans';
 }
 
 .navbar {
@@ -109,12 +110,16 @@ footer {
   margin-top: 5px;
 }
 
+.heading-text-green {
+  color: #16a085;
+  font-weight: 600;
+}
+
 .hero-container {
   text-align: center;
-  p {
+  p, li {
     font-family: 'Open Sans';
     font-weight: 300;
-    font-size: 0.95em;
     line-height: 1.8em;
     @media (max-width: 768px) {
       font-size: 0.9em;
@@ -357,5 +362,22 @@ footer {
   ul {
     text-align: left;
     font-weight: 300;
+  }
+}
+
+
+///// Projects
+
+.project-item {
+  img {
+    @media (max-width: 992px) {
+      margin: 10px 0;
+    }
+  }
+  h1 {
+    margin: 40px 0 25px;
+    @media (max-width: 768px) {
+      margin: 25px 0 5px;
+    }
   }
 }

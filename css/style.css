@@ -1,6 +1,7 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500|Snippet|Open+Sans:200,300,400);
+@import url(https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500|Snippet|Open+Sans:200,300,400,600);
 body {
-  background-color: #f1f1f1; }
+  background-color: #f1f1f1;
+  font-family: 'Open Sans'; }
 
 .navbar {
   margin-bottom: 0;
@@ -88,15 +89,18 @@ footer {
   font-weight: 400;
   margin-top: 5px; }
 
+.heading-text-green {
+  color: #16a085;
+  font-weight: 600; }
+
 .hero-container {
   text-align: center; }
-  .hero-container p {
+  .hero-container p, .hero-container li {
     font-family: 'Open Sans';
     font-weight: 300;
-    font-size: 0.95em;
     line-height: 1.8em; }
     @media (max-width: 768px) {
-      .hero-container p {
+      .hero-container p, .hero-container li {
         font-size: 0.9em;
         line-height: 1.6em; } }
 
@@ -291,3 +295,12 @@ footer {
   .objective-container ul {
     text-align: left;
     font-weight: 300; }
+
+@media (max-width: 992px) {
+  .project-item img {
+    margin: 10px 0; } }
+.project-item h1 {
+  margin: 40px 0 25px; }
+  @media (max-width: 768px) {
+    .project-item h1 {
+      margin: 25px 0 5px; } }

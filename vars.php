@@ -3,7 +3,7 @@
 $links = [
     'home'          => '/index.php',
     'about'         => '/about.php',
-    'projects'      => '/project.php',
+    'projects'      => '/projects.php',
     'objective'     => '/objective.php',
     'origin'        => '/origin.php',
     'challenges'    => '/challenges.php',
