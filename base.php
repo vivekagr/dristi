@@ -8,7 +8,7 @@
     <meta name="description" content="<?= $metaDescription ?>">
     <meta property="og:title" content="<?php startblock('title') ?>Dristi<?php endblock() ?>" />
     <meta property="og:image" content="http://dristi.org.in/img/logo-large.png" />
-    <meta property="og:url" content="http://<?= $_SERVER["SERVER_NAME"].":".$_SERVER["SERVER_PORT"].$_SERVER["REQUEST_URI"]; ?>" />
+    <meta property="og:url" content="http://<?= $_SERVER["SERVER_NAME"].$_SERVER["REQUEST_URI"]; ?>" />
     <meta property="og:description" content="<?= $metaDescription ?>" />
     <title><?php startblock('title') ?>Dristi<?php endblock() ?></title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
