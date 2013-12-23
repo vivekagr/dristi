@@ -335,3 +335,20 @@ h2.heading-text {
 
 .experiences-container blockquote {
   text-align: left; }
+
+.volunteer-heading {
+  background-image: url("/img/volunteer/volunteer-header.jpg"); }
+
+.volunteer-container h1 {
+  color: #3498db;
+  margin-bottom: 25px; }
+.volunteer-container p {
+  font-size: 1.1em; }
+
+.volunteer-voice {
+  margin-top: 30px; }
+  .volunteer-voice blockquote {
+    font-size: 0.95em; }
+
+.volunteer-form {
+  margin-top: 30px; }

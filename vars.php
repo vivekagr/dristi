@@ -1,6 +1,6 @@
 <?php
 
-$contactEmail = "me@vivek.im";
+$contactEmail = "dristi.bitm@gmail.com";
 
 $links = [
     'home'          => '/index.php',
@@ -12,7 +12,7 @@ $links = [
     'activities'    => '/activities.php',
     'events'        => '/events.php',
     'experiences'   => '/experiences.php',
-    'getInvolved'   => '#',
+    'getInvolved'   => '/volunteer.php',
     'mediaCentre'   => '#',
     'contact'       => '#',
 ];

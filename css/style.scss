@@ -433,3 +433,31 @@ h2.heading-text {
     text-align: left;
   }
 }
+
+
+//// Volunteer
+
+.volunteer-heading {
+  background-image: url('/img/volunteer/volunteer-header.jpg');
+}
+
+.volunteer-container {
+  h1 {
+    color: #3498db;
+    margin-bottom: 25px;
+  }
+  p {
+    font-size: 1.1em;
+  }
+}
+
+.volunteer-voice {
+  margin-top: 30px;
+  blockquote {
+    font-size: 0.95em;
+  }
+}
+
+.volunteer-form {
+  margin-top: 30px;
+}
