@@ -1,5 +1,7 @@
 <?php
 
+$metaDescription = "DRISTI stands for ‘Directing Rural India towards Social and Technological Integration’. It’s an initiative by students of BIT Mesra to aid in the development of rural India. We aspire to create awareness about health, sanitation, water conservation, education and other socio-economic problems.";
+
 $contactEmail = "dristi.bitm@gmail.com";
 
 $links = [

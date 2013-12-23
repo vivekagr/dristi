@@ -2,11 +2,14 @@
       require_once 'vars.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head prefix="og: http://ogp.me/ns#">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="<?= $metaDescription ?>">
+    <meta property="og:title" content="<?php startblock('title') ?>Dristi<?php endblock() ?>" />
+    <meta property="og:image" content="http://dristi.org.in/img/logo-large.png" />
+    <meta property="og:url" content="http://<?= $_SERVER["SERVER_NAME"].":".$_SERVER["SERVER_PORT"].$_SERVER["REQUEST_URI"]; ?>" />
+    <meta property="og:description" content="<?= $metaDescription ?>" />
     <title><?php startblock('title') ?>Dristi<?php endblock() ?></title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
