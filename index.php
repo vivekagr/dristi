@@ -42,7 +42,7 @@
             <div class="col-sm-4 feature-box">
                 <img class="feature-box-image" src="img/feature-item/our-mission.jpg">
                 <div class="feature-box-description">
-                    <a href="#" class="btn btn-primary">Our Mission</a>
+                    <a href="<?= $links['about'] ?>" class="btn btn-primary">Our Mission</a>
                     <p>​To extend the parameters in terms of education and recreation to guide on the path of self sufficiency and success in future.</p>
                 </div>
 
@@ -50,7 +50,7 @@
             <div class="col-sm-4 feature-box">
                 <img class="feature-box-image" src="img/feature-item/get-involved.jpg">
                 <div class="feature-box-description">
-                    <a href="#" class="btn btn-primary">Get Involved</a>
+                    <a href="<?= $links['getInvolved'] ?>" class="btn btn-primary">Get Involved</a>
                     <p>Be a part of dedicated volunteer action team and help us with the field work.</p>
                 </div>
 
