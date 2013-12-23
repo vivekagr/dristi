@@ -42,18 +42,18 @@
         </div>
         <div class="col-md-5 col-md-offset-1">
             <h1 class="heading-text heading-text-green text-center">Interested In Volunteering For DRISTI?</h1>
-            <form class="volunteer-form" role="form" method="post">
+            <form class="volunteer-form" role="form" method="post" action="contact.php">
                 <div class="form-group">
                     <label for="volunteerName">Name</label>
-                    <input type="text" class="form-control" id="volunteerName" name="email" placeholder="Enter Name">
+                    <input type="text" class="form-control" id="volunteerName" name="name" placeholder="Enter Name">
                 </div>
                 <div class="form-group">
                     <label for="volunteerEmail">Email address</label>
                     <input type="email" class="form-control" id="volunteerEmail" name="email" placeholder="Enter Email">
                 </div>
                 <div class="form-group">
-                    <label for="volunteerName">Mobile Number</label>
-                    <input type="text" class="form-control" id="volunteerMobile" name="email" placeholder="Enter Mobile Number">
+                    <label for="volunteerMobile">Mobile Number</label>
+                    <input type="text" class="form-control" id="volunteerMobile" name="mobile" placeholder="Enter Mobile Number">
                 </div>
                 <div class="form-group">
                     <button class="btn btn-primary pull-right" type="submit">Submit</button>
