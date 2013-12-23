@@ -120,6 +120,9 @@ h2.heading-text {
         font-size: 0.9em;
         line-height: 1.6em; } }
 
+.contact-modal-footer {
+  text-align: left; }
+
 .frontpage-heading {
   background-image: url("/img/header.jpg"); }
 

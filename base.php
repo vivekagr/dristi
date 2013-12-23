@@ -55,7 +55,7 @@
                     </li>
                     <li><a href="<?= $links['getInvolved'] ?>">Get Involved</a></li>
                     <li><a href="<?= $links['mediaCentre'] ?>">Media Centre</a></li>
-                    <li><a href="<?= $links['contact'] ?>">Contact</a></li>
+                    <li><a data-toggle="modal" data-target="#contactModal" href="<?= $links['contact'] ?>">Contact</a></li>
                 </ul>
             </div>
         </div>
@@ -76,6 +76,7 @@
         </div>
     </footer>
 </div>
+<?php require_once 'modals.php'; ?>
 <script src="js/jquery.js"></script>
 <script src="js/bootstrap.js"></script>
 <?php emptyblock('js') ?>
