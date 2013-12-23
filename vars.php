@@ -1,5 +1,7 @@
 <?php
 
+$contactEmail = "me@vivek.im";
+
 $links = [
     'home'          => '/index.php',
     'about'         => '/about.php',

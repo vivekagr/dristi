@@ -6,7 +6,7 @@
                 <h4 class="modal-title" id="myModalLabel">Contact Us</h4>
             </div>
             <div class="modal-body">
-                <form role="form">
+                <form role="form" method="post" action="/contact.php">
                     <div class="row">
                         <div class="form-group col-sm-6">
                             <input type="text" class="form-control" name="name" id="name" placeholder="Name">
