@@ -8,6 +8,9 @@
         <div class="col-md-12 full-width-block">
             <h1 class="heading-text">Projects</h1>
             <p>Currently, DRISTI is functional in two villages viz. Masu and Panchauli, both of which are in close vicinity of our college. Two sessions per village are conducted every week where students interact with the villagers, identify their problems and try to solve them by looking for relevant solutions. Various socio-economic problems are addressed by showing informative videos related to the same. At the same time regular workshops are held in the college campus to further support the cause.</p>
+            <a class="btn btn-primary" href="<?= $links['activities']; ?>">Activities</a>
+            <a class="btn btn-primary" href="<?= $links['events']; ?>">Events</a>
+            <a class="btn btn-primary" href="<?= $links['experiences']; ?>">Experiences</a>
         </div>
         <div class="col-md-12 project-item">
             <h2 class="heading-text heading-text-green">Project Masu</h2>
