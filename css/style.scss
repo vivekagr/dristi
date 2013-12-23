@@ -415,3 +415,17 @@ h2.heading-text {
     }
   }
 }
+
+
+//// Experiences
+
+.experiences-heading {
+  background-image: url('/img/experiences/experiences-header.jpg');
+}
+
+.experiences-container {
+  @extend .about-container;
+  blockquote {
+    text-align: left;
+  }
+}

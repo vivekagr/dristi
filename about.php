@@ -18,7 +18,7 @@
             </div>
         </div>
     </div>
-    <div class="padded-container grey-container ">
+    <div class="padded-container grey-container">
         <div class="row">
             <div class="col-lg-12 full-width-block">
                 <h1 class="heading-text text-center">The Team</h1>

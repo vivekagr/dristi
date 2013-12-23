@@ -271,11 +271,11 @@ h2.heading-text {
 .about-heading {
   background-image: url("/img/group.jpg"); }
 
-.about-container h1 {
+.about-container h1, .experiences-container h1 {
   color: #2980b9; }
-.about-container p {
+.about-container p, .experiences-container p {
   margin: 20px 0; }
-.about-container .btn {
+.about-container .btn, .experiences-container .btn {
   margin-right: 10px; }
 
 .about-team-container {
@@ -326,3 +326,9 @@ h2.heading-text {
   @media (max-width: 768px) {
     .project-item h1 {
       margin: 25px 0 5px; } }
+
+.experiences-heading {
+  background-image: url("/img/experiences/experiences-header.jpg"); }
+
+.experiences-container blockquote {
+  text-align: left; }
