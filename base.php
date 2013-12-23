@@ -54,7 +54,6 @@
                         </ul>
                     </li>
                     <li><a href="<?= $links['getInvolved'] ?>">Get Involved</a></li>
-                    <li><a href="<?= $links['mediaCentre'] ?>">Media Centre</a></li>
                     <li><a data-toggle="modal" data-target="#contactModal" href="<?= $links['contact'] ?>">Contact</a></li>
                 </ul>
             </div>
