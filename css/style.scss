@@ -16,13 +16,14 @@ body {
 .site-nav {
   li {
     font-family: 'Open Sans';
-    font-size: 0.9em;
+    font-size: 1.05em;
+    font-weight: 600;
     a {padding: 8px 17px;}
   }
 }
 
 .navbar-collapse {
-  padding-top: 35px;
+  padding-top: 55px;
 }
 
 .navbar-brand {
@@ -35,7 +36,7 @@ body {
 }
 
 .brand-logo {
-  height: 70px;
+  height: 110px;
   width: auto;
   @media (max-width: 768px) {
     height: 30px;
