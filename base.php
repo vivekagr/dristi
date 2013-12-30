@@ -32,6 +32,7 @@
             </div>
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav navbar-right site-nav">
+                    <li><a href="/">Home</a></li>
                     <li class="dropdown">
                         <a id="siteNavAbout" role="button" data-toggle="dropdown" data-target="#" href="<?= $links['about'] ?>">
                             About <span class="caret"></span>

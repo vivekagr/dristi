@@ -25,13 +25,9 @@
             <div class="frontpage-heading-text">Let's Make a Difference</div>
         </div>
     </div>
-    <div class="padded-container grey-container">
+    <div class="padded-container grey-container homepage-about-container">
         <div class="row">
             <div class="col-lg-12 full-width-block">
-                <div class="heading-group">
-                    <h1 class="heading">dristi</h1>
-                    <h2 class="sub-heading">a BIT initiative</h2>
-                </div>
                 <p>DRISTI stands for ‘Directing Rural India towards Social and Technological Integration’. It’s an initiative by students of BIT Mesra to aid in the development of rural India. We aspire to create awareness about health, sanitation, water conservation, education, addiction and many more socio-economic problems as well as to hold workshops about career counseling and skill development.</p>
                 <p>BIT Mesra, since its foundation in 1955, is renowned for enriching and nurturing young minds in technical education but very less could be done for the villages encircling the campus. Though a number of individuals from the nearby villages have been employed here, the room for improvement always remains.</p>
             </div>

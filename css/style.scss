@@ -22,7 +22,7 @@ body {
 }
 
 .navbar-collapse {
-  padding-top: 25px;
+  padding-top: 35px;
 }
 
 .navbar-brand {
@@ -35,7 +35,7 @@ body {
 }
 
 .brand-logo {
-  height: 50px;
+  height: 70px;
   width: auto;
   @media (max-width: 768px) {
     height: 30px;
@@ -52,8 +52,8 @@ body {
 
 footer {
   padding: 20px;
-  border-top: 6px solid rgba(39, 174, 96, 0.86);
-  background-color: rgba(41, 128, 185, 0.9);
+  border-top: 4px solid rgba(39, 174, 96, 0.86);
+  background-color: rgba(36, 36, 36, 1);
   color: white;
   font-family: 'Lato';
   font-size: 1.1em;
@@ -71,6 +71,12 @@ footer {
 
 .grey-container {
   background: rgba(238, 238, 238, 0.6);
+}
+
+.homepage-about-container {
+  padding: 40px 50px;
+  font-size: 1.05em;
+  font-weight: 300;
 }
 
 .full-width-block {
