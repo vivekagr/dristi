@@ -2,10 +2,29 @@
 
 <?php startblock('title') ?>Dristi - Activities<?php endblock() ?>
 
+<?php startblock('head_css')?>
+<link href="css/magnific-popup.css" rel="stylesheet">
+<?php endblock() ?>
+
+<?php startblock('js') ?>
+<script src="js/magnific-popup.js"></script>
+<script>
+    $(document).ready(function() {
+        $('#activitiesContainer').magnificPopup({
+            delegate: 'a',
+            type:'image',
+            gallery: {
+                enabled: true
+            }
+        });
+    });
+</script>
+<?php endblock() ?>
+
 <?php startblock('main') ?>
 <div class="hero-container project-container">
     <div class="row">
-        <div class="col-md-12 full-width-block">
+        <div id="activitiesContainer" class="col-md-12 full-width-block">
             <h1 class="heading-text">Activities</h1>
             <div class="row">
                 <div class="col-md-12"><h2 class="heading-text heading-block">Tuition Classes</h2></div>
@@ -17,7 +36,7 @@
                         <li>Letting them learn with the fun using educational tools,laptops, experiments,etc.</li>
                     </ul>
                 </div>
-                <div class="col-lg-2 col-md-3 col-sm-4 hidden-xs"><img class="img-responsive" src="/img/activities/tuition-classes.jpg"></div>
+                <div class="col-lg-2 col-md-3 col-sm-4 hidden-xs"><a title="Tuition Classes by DRISTI" href="/img/activities/tuition-classes.jpg"><img class="img-responsive" src="/img/activities/tuition-classes.jpg"></a></div>
             </div>
             <div class="row">
                 <div class="col-md-12"><h2 class="heading-text heading-block">Basic Computer Class</h2></div>
@@ -30,7 +49,7 @@
                         <li>Search techniques on Google, YouTube, Google images, maps, creating e-mail ids and searching for study material on the internet through various education sites by the government of India.</li>
                     </ul>
                 </div>
-                <div class="col-lg-2 col-md-3 col-sm-4 hidden-xs"><img class="img-responsive" src="/img/activities/computer-class.jpg"></div>
+                <div class="col-lg-2 col-md-3 col-sm-4 hidden-xs"><a title="Basic Computer Classes by DRISTI" href="/img/activities/computer-class.jpg"><img class="img-responsive" src="/img/activities/computer-class.jpg"></a></div>
             </div>
             <div class="row">
                 <div class="col-md-12"><h2 class="heading-text heading-block">English Sessions</h2></div>
@@ -43,7 +62,7 @@
                         <li>Vocabulary building, basics of writing an essay.</li>
                     </ul>
                 </div>
-                <div class="col-lg-2 col-md-3 col-sm-4 hidden-xs"><img class="img-responsive" src="/img/activities/english-sessions.jpg"></div>
+                <div class="col-lg-2 col-md-3 col-sm-4 hidden-xs"><a title="English Sessions by DRISTI" href="/img/activities/english-sessions.jpg"><img class="img-responsive" src="/img/activities/english-sessions.jpg"></a></div>
             </div>
             <div class="row">
                 <div class="col-md-12"><h2 class="heading-text heading-block">Football Club - F.C. DRISTI</h2></div>
@@ -56,7 +75,7 @@
                         <li>Funding for the football kit.</li>
                     </ul>
                 </div>
-                <div class="col-lg-2 col-md-3 col-sm-4 hidden-xs"><img class="img-responsive" src="/img/activities/football.jpg"></div>
+                <div class="col-lg-2 col-md-3 col-sm-4 hidden-xs"><a title="Football Club - F.C. DRISTI" href="/img/activities/football.jpg"><img class="img-responsive" src="/img/activities/football.jpg"></a></div>
             </div>
             <div class="row">
                 <div class="col-md-12"><h2 class="heading-text heading-block">Career Counselling</h2></div>
@@ -68,28 +87,28 @@
                         <li>Providing forms of various examination conducted throughout country.</li>
                     </ul>
                 </div>
-                <div class="col-lg-2 col-md-3 col-sm-4 hidden-xs"><img class="img-responsive" src="/img/activities/career-counselling.jpg"></div>
+                <div class="col-lg-2 col-md-3 col-sm-4 hidden-xs"><a title="Career Counselling by DRISTI" href="/img/activities/career-counselling.jpg"><img class="img-responsive" src="/img/activities/career-counselling.jpg"></a></div>
             </div>
             <div class="row">
                 <div class="col-md-12"><h2 class="heading-text heading-block">De-Addiction Campaign</h2></div>
                 <div class="col-lg-10 col-md-9 col-sm-8">
                     <p>Team DRISTI conducted de-addiction campaigns in both the villages which proved to be very successful as the response recorded was quite satisfactory. The group mainly spoke to the people about ill effects of tobacco, alcohol, beedi, and cigarette addiction. Many of them came up to us personally and asked how can they get de-addicted and we gave them some primary information about what can be done.</p>
                 </div>
-                <div class="col-lg-2 col-md-3 col-sm-4 hidden-xs"><img class="img-responsive" src="/img/activities/de-addiction.jpg"></div>
+                <div class="col-lg-2 col-md-3 col-sm-4 hidden-xs"><a title="De-Addiction Campaign by DRISTI" href="/img/activities/de-addiction.jpg"><img class="img-responsive" src="/img/activities/de-addiction.jpg"></a></div>
             </div>
             <div class="row">
                 <div class="col-md-12"><h2 class="heading-text heading-block">Session on Women Related Issues</h2></div>
                 <div class="col-lg-10 col-md-9 col-sm-8">
                     <p>A session was conducted specially for women of village, Panchauli to identify and discuss the problems they face in everyday affair. The motto of the session was “You educate a man; you educate a man. You educate a woman; you educate a generation.” Many informational videos on pregnancy, malnutrition and general health care were shown to them. We also interacted with the local Anganwadi workers to get a better insight into its functioning.</p>
                 </div>
-                <div class="col-lg-2 col-md-3 col-sm-4 hidden-xs"><img class="img-responsive" src="/img/activities/women-issues.jpg"></div>
+                <div class="col-lg-2 col-md-3 col-sm-4 hidden-xs"><a title="Session on Women Related Issues" href="/img/activities/women-issues.jpg"><img class="img-responsive" src="/img/activities/women-issues.jpg"></a></div>
             </div>
             <div class="row">
                 <div class="col-md-12"><h2 class="heading-text heading-block">The Night Trip</h2></div>
                 <div class="col-lg-10 col-md-9 col-sm-8">
                     <p>Realizing the importance of visual media in information sharing ,Team DRISTI came up with this unique idea of showing films/educational videos to the villagers at night. This session involves learning with watching. All the learning is done with videos projected on screens and thereafter a valued lecture on social issues. So far numerous sessions have been conducted for villages Panchauli and Masu. The outcome has only motivated us to provide the villagers with more of such tutorials.</p>
                 </div>
-                <div class="col-lg-2 col-md-3 col-sm-4 hidden-xs"><img class="img-responsive" src="/img/activities/night-trip.jpg"></div>
+                <div class="col-lg-2 col-md-3 col-sm-4 hidden-xs"><a title="The Night Trip by DRISTI" href="/img/activities/night-trip.jpg" class="thumb"><img class="img-responsive" src="/img/activities/night-trip.jpg"></a></div>
             </div>
         </div>
     </div>
