@@ -15,7 +15,7 @@ body {
     padding: 8px 17px; }
 
 .navbar-collapse {
-  padding-top: 55px; }
+  padding-top: 60px; }
 
 .navbar-brand {
   font-family: 'Snippet';
@@ -26,7 +26,7 @@ body {
       padding: 5px 17px; } }
 
 .brand-logo {
-  height: 110px;
+  height: 120px;
   width: auto; }
   @media (max-width: 768px) {
     .brand-logo {
