@@ -363,3 +363,10 @@ h2.heading-text {
 
 .volunteer-form {
   margin-top: 30px; }
+
+.origin-intro {
+  margin-bottom: 20px; }
+  .origin-intro blockquote {
+    text-align: left; }
+  .origin-intro .about-team-member {
+    margin-bottom: 0; }

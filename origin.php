@@ -4,9 +4,23 @@
 
 <?php startblock('main') ?>
 <div class="hero-container objective-container">
+    <h1 class="heading-text">Origin</h1>
+    <div class="padded-container grey-container origin-intro">
+        <div class="row">
+            <div class="col-sm-9">
+                <blockquote class="text-primary">
+                    "What causes a blaze is a little spark!"
+                </blockquote>
+                <p>Yes everything in this world has a very simple start and so is the case of DRISTI. A mere attempt to utilize my free time turned into an idea for social change. Here is how.</p>
+            </div>
+            <div class="col-sm-3 about-team-member">
+                <img class="img-circle img-responsive" src="/img/volunteer/vikas.jpg">
+                <h3>Vikas Pandey</h3>
+            </div>
+        </div>
+    </div>
     <div class="row">
         <div class="col-lg-12 full-width-block">
-            <h1 class="heading-text">Origin</h1>
             <p>It was freezing and I was on a trip to my paternal village- a small hamlet 50 miles away from Gorakhpur city. Pretty content with the New Year celebrations, my life seemed quite aimless post the bash, in the bitingly cold conditions, with my blanket being my only companion. Yes, I was house trapped.</p>
             <p>All I could feel apart from being frost bitten was nostalgia. The best chapter of my life was about to end, my college life. I wanted to get back as soon as I could. But the vacations wouldn't end because of an employee strike.</p>
 
@@ -21,6 +35,8 @@
             <p>The first session we did at a village called Masu, 4kms south of BIT was a huge success. We were overwhelmed by the crowd that turned up for the session in which we showed them a video on patriotism and did a survey to find out the problems faced by the villagers. Being sceptical about an inception is only natural, but as the number of surveys grew, ounce by ounce our belief and confidence in this did too.  It only seemed right to call it DRISTI (Directing Rural India Towards Social and Technological Integration).</p>
 
             <p>We are a group of more than 100 students, which comprises of 2009 students assisted by their dedicated and disciplined juniors. Since mass participation of students is expected in the coming semesters, DRISTI has been institutionalized and is included in students’ activity. Dr. Jeeoot Singh (Associate Professor, Mechanical Engineering Department) has been immensely supportive of our cause right from its inception and is appointed as our faculty advisor to guide our thoughts and actions towards our goals.</p>
+
+            <p><strong>– Vikas Pandey</strong></p>
         </div>
     </div>
 </div>
