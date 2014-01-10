@@ -351,10 +351,15 @@ h2.heading-text {
 .volunteer-container p {
   font-size: 1.1em; }
 
+.volunteer-voices {
+  margin: 40px 0; }
+
 .volunteer-voice {
-  margin-top: 30px; }
+  margin: 20px 0; }
   .volunteer-voice blockquote {
     font-size: 0.95em; }
+    .volunteer-voice blockquote small {
+      margin-top: 8px; }
 
 .volunteer-form {
   margin-top: 30px; }

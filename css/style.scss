@@ -458,10 +458,17 @@ h2.heading-text {
   }
 }
 
+.volunteer-voices {
+  margin: 40px 0;
+}
+
 .volunteer-voice {
-  margin-top: 30px;
+  margin: 20px 0;
   blockquote {
     font-size: 0.95em;
+    small {
+      margin-top: 8px;
+    }
   }
 }
 
