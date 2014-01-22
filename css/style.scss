@@ -78,6 +78,9 @@ footer {
   padding: 40px 50px;
   font-size: 1.05em;
   font-weight: 300;
+  // Adding margin top to all the p elements except the first
+  p {  margin-top: 20px;  }
+  p:first-of-type {  margin-top: 10px;  }
 }
 
 .full-width-block {
