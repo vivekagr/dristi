@@ -28,7 +28,7 @@
                 <div class="clearfix"></div>
             </div>
             <div class="modal-footer contact-modal-footer">
-                <p><i class="fa fa-phone"></i> <strong>08874074331</strong> (Vikas Kr. Pandey) or <strong>09199434788</strong> (Leena Shekhar)</p>
+                <p><i class="fa fa-phone"></i> <strong>+91-8860763305</strong> (Vikas Kr. Pandey) or <strong>+91-9199434788</strong> (Leena Shekhar)</p>
                 <p><i class="fa fa-group"></i> BIT Mersra Road, Mesra, Ranchi, Jharkhand 835215</p>
                 <p><i class="fa fa-envelope"></i> <a href="mailto:dristi.bitm@gmail.com">dristi.bitm@gmail.com</a></p>
                 <p><i class="fa fa-facebook-square"></i> <a href="https://facebook.com/dristi.bitm">facebook.com/dristi.bitm</a></p>
